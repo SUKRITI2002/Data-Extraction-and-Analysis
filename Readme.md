@@ -1,3 +1,59 @@
+# Text Analysis Project
+
+## Overview
+This project involves analyzing text data extracted from a list of URLs using Python and Microsoft Excel. The Python scripts utilize libraries such as `requests`, `BeautifulSoup`, `NLTK`, and `pandas` for data extraction, text analysis, and data manipulation. The extracted data is then stored and analyzed further using Microsoft Excel.
+
+## Key Features
+- **Data Extraction:** Python scripts extract text data from URLs and save it as individual text files.
+- **Text Analysis:** Sentiment analysis, readability metrics calculation, and additional text statistics computation are performed using Python.
+- **Output Generation:** Computed metrics are stored in an Excel file for further analysis and reporting.
+- **Error Handling and Validation:** The scripts implement error handling to handle invalid URLs or missing data.
+- **Documentation:** Clear documentation of the code is provided for future reference.
+
+## Technologies Used
+- **Python:** Utilized for data extraction, text analysis, and script development.
+- **Microsoft Excel:** Used for storing and analyzing computed metrics and generating reports.
+
+## Setup
+1. **Installation:**
+   - Install Python 3.x on your system.
+   - Install required Python libraries using pip:
+     ```
+     pip install requests beautifulsoup4 nltk pandas
+     ```
+
+2. **Folder Structure:**
+   - Organize project files and folders as described in the setup instructions.
+
+3. **Input and Output Files:**
+   - Place the input Excel file (`Input.xlsx`) containing the URLs in the project folder.
+   - Prepare the output Excel file (`output.xlsx`) with the desired structure and place it in the output folder.
+
+4. **Configuration:**
+   - Update file paths in Python scripts to point to the correct locations of input and output files and folders.
+
+## Usage
+1. Run the `dataextraction.py` script to extract data from the URLs and save text files.
+2. Run the `textanalysis.py` script to perform text analysis and generate output data in the Excel file.
+3. Review the output Excel file (`output.xlsx`) to view computed metrics and analysis results.
+
+## Contributors
+- Sukriti
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+
+
+
+
+
+
+
+
+
 1. *Save Files in a Folder:*
    - Save all the Python files (dataextraction.py, textanalysis.py) in a folder on your computer.
 
