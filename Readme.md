@@ -33,26 +33,6 @@ This project involves analyzing text data extracted from a list of URLs using Py
    - Update file paths in Python scripts to point to the correct locations of input and output files and folders.
 
 ## Usage
-1. Run the `dataextraction.py` script to extract data from the URLs and save text files.
-2. Run the `textanalysis.py` script to perform text analysis and generate output data in the Excel file.
-3. Review the output Excel file (`output.xlsx`) to view computed metrics and analysis results.
-
-## Contributors
-- Sukriti
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
-
-
-
-
-
-
-
-
-
-
 
 1. *Save Files in a Folder:*
    - Save all the Python files (dataextraction.py, textanalysis.py) in a folder on your computer.
@@ -90,3 +70,21 @@ This project is licensed under the [MIT License](LICENSE).
    - After updating the file paths, run the dataextraction.py file first to extract the data from the URLs and save the text files.
    - Then, run the textanalysis.py file to perform text analysis and generate the output data.
    - Make sure to check the output Excel file to verify that the relevant output data has been stored correctly.
+
+## Contributors
+- Sukriti
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+
+
+
+
+
+
+
+
+
